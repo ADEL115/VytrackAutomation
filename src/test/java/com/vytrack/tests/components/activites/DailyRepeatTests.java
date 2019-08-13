@@ -12,7 +12,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.Random;
-
 import static org.testng.Assert.*;
 
 public class DailyRepeatTests extends TestBase {
@@ -63,6 +62,7 @@ public class DailyRepeatTests extends TestBase {
     public void test2() {
 
         CreateCalendarEventPage createCalendarEventPage = new CreateCalendarEventPage();
+        BrowserUtils.waitForClickablility(createCalendarEventPage.repeatCheckbox, 3);
         createCalendarEventPage.repeatCheckbox.click();
         BrowserUtils.waitFor(1);
 
@@ -80,6 +80,7 @@ public class DailyRepeatTests extends TestBase {
     public void test3() {
 
         CreateCalendarEventPage createCalendarEventPage = new CreateCalendarEventPage();
+        BrowserUtils.waitForClickablility(createCalendarEventPage.repeatCheckbox, 3);
         createCalendarEventPage.repeatCheckbox.click();
         BrowserUtils.waitFor(1);
 
@@ -105,6 +106,7 @@ public class DailyRepeatTests extends TestBase {
     public void test4() {
 
         CreateCalendarEventPage createCalendarEventPage = new CreateCalendarEventPage();
+        BrowserUtils.waitForClickablility(createCalendarEventPage.repeatCheckbox, 3);
         createCalendarEventPage.repeatCheckbox.click();
         BrowserUtils.waitFor(1);
 
@@ -122,6 +124,7 @@ public class DailyRepeatTests extends TestBase {
     public void test5() {
 
         CreateCalendarEventPage createCalendarEventPage = new CreateCalendarEventPage();
+        BrowserUtils.waitForClickablility(createCalendarEventPage.repeatCheckbox, 3);
         createCalendarEventPage.repeatCheckbox.click();
         BrowserUtils.waitFor(1);
 
@@ -150,6 +153,7 @@ public class DailyRepeatTests extends TestBase {
     public void test6() {
 
         CreateCalendarEventPage createCalendarEventPage = new CreateCalendarEventPage();
+        BrowserUtils.waitForClickablility(createCalendarEventPage.repeatCheckbox, 3);
         createCalendarEventPage.repeatCheckbox.click();
         BrowserUtils.waitFor(1);
 
@@ -175,6 +179,7 @@ public class DailyRepeatTests extends TestBase {
     public void test7() {
 
         CreateCalendarEventPage createCalendarEventPage = new CreateCalendarEventPage();
+        BrowserUtils.waitForClickablility(createCalendarEventPage.repeatCheckbox, 3);
         createCalendarEventPage.repeatCheckbox.click();
         BrowserUtils.waitFor(1);
 
